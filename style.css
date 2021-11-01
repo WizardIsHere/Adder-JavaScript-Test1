@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    box-sizing:border-box;
+  }
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    text-align: center;
+
+}
+form{
+    display: block;
+    background-color: #DAD7CD;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    max-width: 650px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    font-size:20px;
+}
+.form-control{
+    margin-bottom:10px;
+    text-align: left;
+    
+}
+.form-control label{
+    display: block;
+    margin-bottom: 6px;
+}
+.form-control input{
+  display:block;
+  font-size: 18px;
+  font-family:inherit;
+  padding: 10px;
+  border:1px solid #111;
+  border-radius:5px;
+  width:100%;
+}
+button{
+    background-color: #907AD6;
+    border:1px #907AD6;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size:16px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container{
+    text-align: center;
+}
+.result{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 650px;
+    height: 100px;
+
+    text-align: center;
+    background-color: #907AD6;
+    max-width: 650px;
+    padding: 20px;
+    border-radius:3px;
+    
+}
+footer{
+    text-align: center;
+}
